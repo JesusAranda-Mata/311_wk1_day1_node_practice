@@ -16,15 +16,28 @@ const isEven = (num) => {
 }
 }
 
+isEven()
+
 const sum = (arr) => {
   // write code for numbers.sum
-
+  let reducer = arr.reduce
+  console.log("array reduced to:" reducer);
 }
+
+sum()
 
 const comboSum = (arr, sum) => {
   // write code for numbers.comboSum
-
+  for(let i = 0; i < 0; i++){
+    if(arr[i] + arr[arr.typeOf(i)] == sum){
+    return true
+  }
+  else {
+    return false
+  }
 }
+
+comboSum()
 
 module.exports = {
   isEven,
